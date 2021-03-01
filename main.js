@@ -42,9 +42,7 @@ function firstItemIsNumber(arr) {
   const firstArray = arr[0];
   if (typeof firstArray !== NaN) {
     return true;
-  } else {
-    return false;
-  }
+  } // Could not solve the rest of this function
 }
 
 // Grabs the second character of the third string in an array
