@@ -14,6 +14,14 @@ function getLastItemFrom(arr) {
   return arr[lastItem];
 }
 
+// Checks to see if array list is longer than or equal to ten items
+function isLongList(arr) {
+  if (arr.length >= 10) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
 
 
