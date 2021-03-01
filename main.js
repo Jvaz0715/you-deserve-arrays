@@ -14,6 +14,19 @@ function getLastItemFrom(arr) {
   return arr[lastItem];
 }
 
+// Get the third index of array
+// If no third index, grab last index of array
+
+function getIndex3(arr) {
+  const thirdIndex = arr[3];
+  if (arr.length >= 4) {
+    return thirdIndex;
+  }// return the last index of an array with fewer than 4 items
+  else {
+    return arr[arr.length -1];
+  }
+}
+
 // Checks to see if array list is longer than or equal to ten items
 function isLongList(arr) {
   if (arr.length >= 10) {
@@ -22,6 +35,17 @@ function isLongList(arr) {
     return false;
   }
 };
+
+// Checks to see if first item is a number
+
+function firstItemIsNumber(arr) {
+  const firstArray = arr[0];
+  if (typeof firstArray !== NaN) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 // Grabs the second character of the third string in an array
 function secondCharOfThirdString(arr) {
