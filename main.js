@@ -23,9 +23,15 @@ function isLongList(arr) {
   }
 };
 
+// Grabs the second character of the third string in an array
+function secondCharOfThirdString(arr) {
+  const thirdItem = arr[2];
+  const secondCharacter = thirdItem[1];
+    return secondCharacter;
+}
 
 
- /********************************************
+/********************************************
  * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
  *           PLEASE DON'T TOUCH!            *
  ********************************************/
