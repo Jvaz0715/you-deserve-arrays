@@ -2,8 +2,17 @@
  * YOUR CODE HERE *
  ******************/
 
+// Grabs first item in array
+function getFirstItemFrom(arr) {
+  const firstItem = arr[0];
+  return firstItem;
+}
 
-
+// Grabs last item in array
+function getLastItemFrom(arr) {
+  const lastItem = arr.length - 1;
+  return arr[lastItem];
+}
 
 
 
